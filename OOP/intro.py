@@ -6,3 +6,6 @@ class Student:
 S1 = Student()
 
 print(S1.name)
+
+# del keyword is used delete objects
+del S1.name
