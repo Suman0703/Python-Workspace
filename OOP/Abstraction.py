@@ -1,4 +1,6 @@
 # hiding the unnecessary details
+# ABC To create abstract class (cannot make object)
+# @abstractmethod To force subclasses to implement method
 
 from abc import ABC, abstractmethod
 
