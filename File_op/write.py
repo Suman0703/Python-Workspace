@@ -1,11 +1,11 @@
-# f = open("File_op\sample.txt","w") #w for overwrite
 
-# f.write("I will learn JavaSCript from Tomorrow")
+# write() - Write a string(overwrite)
+'''with open("File_op\sample.txt", "w") as f:
+    f.write("This is a sample File ")
+    f.write("\nI am learning Python")'''
 
-# f.close()
+# writelines() - write a list of strings
 
-f = open("File_op\sample.txt","a") #a  for append 
-
-f.write("\n Hi, This is a Sample file")
-
-f.close()
+lines = [ "I will perform File I/O operations in this file \n","I will learn Javascript after this"]
+with open("File_op\sample.txt", "w") as f:
+    f.writelines(lines)

@@ -1,2 +1,5 @@
-I will learn JavaSCript from Tomorrow
-Hi, This is a Sample file
+I will perform File I/O operations in this file 
+I will learn Javascript after this 
+This is a sample File 
+I am learning Python
+this is append function using print

@@ -1,12 +1,28 @@
-# Pythonn can be used to perform operations on a file 
+# all read operations
 
-f = open("File_op\sample.txt","r") #open the file
+# read() - read the whole file 
+with open("File_op\sample.txt", "r") as f:
+    content = f.read()
+    print(content)
 
-data = f.read() # read data from file
+# reading n no. of characters from a file 
+'''with open("File_op\sample.txt", "r") as f:
+    content = f.read(4)
+    print(content)'''
 
-# line1 = f.readline() read file line by line
+# readline() -Read one line at a time
+'''with open("File_op\sample.txt", "r") as f:
+    content = f.readline()
+    content2 = f.readline()
+    print(content)
+    print(content2)'''
 
-print(data)
-print(type(data))
+# readlines() - Read All lines into list
+'''with open("File_op\sample.txt", "r") as f:
+    content = f.readlines()
+    print(content)'''
 
-f.close() # Closing the file
+# Iterating over the all file objects (including \n)
+'''with open("File_op\sample.txt", "r") as f:
+    for line in f:
+        print(line.strip)'''
