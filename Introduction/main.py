@@ -15,3 +15,8 @@ print ("hello world")
 print (age)
 
 print ("hello from 1","hello from 2")
+
+# Simultaneous assignment
+
+a,b = 3,4
+print (a,b)
