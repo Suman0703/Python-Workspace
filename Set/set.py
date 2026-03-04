@@ -17,7 +17,10 @@ collection.add("Suman") #adds an element
 collection.add((1,2,3,4))
 print(collection)
 
-collection.remove("Suman") #removes the element
+collection.remove("Suman") #removes the element and gives error if elements is not found
+print(collection)
+
+collection.discard("Suman") #removes the element(no error if no element is found)
 print(collection)
 
 collection.pop() #Removes a random value 

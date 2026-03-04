@@ -38,3 +38,12 @@ print(list)
 
 list.pop(3) #Remove element at idx
 print(list)
+
+list.extend([6,8,9]) # add multiple values 
+print(list)
+
+list.copy() #make copy of list
+print(list)
+
+list.clear() #remove all the elements
+print(list)

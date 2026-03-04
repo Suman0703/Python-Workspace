@@ -23,3 +23,11 @@ print("Total:", x + y + z)
 # taking multiple float values 
 p,q,r = map (float, input("Enter three float values").split())
 print("Total:", p + q + r)
+
+# taking strings 
+name , city , branch = map(str, input("Enter your name,city and branch: ").split())
+print(name , city , branch)
+
+# Taking input in list
+numbers = list(map(int, input("Enter numbers input Values:").split()))
+print (numbers)
