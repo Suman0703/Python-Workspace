@@ -8,4 +8,3 @@ len("sum")
 
 #range
 range(1,7)
-
